@@ -1,0 +1,29 @@
+.text-center{
+    text-align: center;
+
+}
+.mx-auto{
+    margin: auto;
+}
+.flex{
+    display: flex;
+
+}
+.flex-col{
+    flex-direction: column;
+}
+.items-center{
+    align-items: center;
+
+}
+body {
+    background-image: url('brian-yurasits-9pg_HAxUNcI-unsplash.jpg'); /* Use an image with transparent or soft colors */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    transition: background-image 0.5s ease-in-out ;
+}
+body.answer-shown{
+    background-image: url('ian-stauffer-bH7kZ0yazB0-unsplash.jpg');
+}
